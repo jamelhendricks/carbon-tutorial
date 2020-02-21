@@ -1,0 +1,66 @@
+#secondary-page__accordion {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.profile__btn {
+  padding-left: $layout-04;
+  padding-right: $layout-04;
+}
+
+#about__tile {
+  max-width: 80%;
+  margin-left: 10%;
+  padding-left: $layout-04;
+  padding-right: $layout-04;
+}
+
+#about__list {
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+}
+
+.accordion__item {
+  @include carbon--type-style('display-01');
+}
+
+#accordion__objective {
+  @include carbon--type-style('display-01');
+  font-weight: 400;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.emphasize__text {
+  color: #0f62fe;
+  font-weight: 700;
+}
+
+.accent__text {
+  color: #0f62fe;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.general__header {
+  @include carbon--type-style('expressive-heading-04');
+  padding-top: $layout-01;
+  padding-bottom: $layout-01;
+}
+
+.general__container {
+  padding-left: $layout-04;
+  background-color: #fff;
+}
+
+.project__header {
+  @include carbon--type-style('expressive-heading-04');
+  padding-top: $layout-01;
+  padding-bottom: $layout-01;
+  color: #0f62fe;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
